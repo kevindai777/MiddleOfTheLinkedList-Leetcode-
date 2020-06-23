@@ -2,8 +2,8 @@
 //If list has an even number of nodes, return the right middle node.
 
 class Node {
-    constructor(data, next = null) { //if next is not given, assume it is empty
-      this.data = data
+    constructor(val, next = null) { //if next is not given, assume it is empty
+      this.val = val
       this.next = next
     }
 }
